@@ -92,7 +92,7 @@ function makeCard(obj) {
         card += '"></span></a></small></p>';
     }
     // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">Ver Registro Completo</a>';
     // close divs
     card += '</div></div></div>';
     // send back big string
@@ -119,7 +119,7 @@ function filterItems(arr,q) {
         }
     }
     // add number 
-    document.querySelector("#numberOf").innerHTML = filteredItems.length + " of " + items.length + " items";
+    document.querySelector("#numberOf").innerHTML = filteredItems.length + " De " + items.length + " Objetos";
     
     // add stuff, make cards first in giant var, then add all at once to speed things up
     var cards = "";

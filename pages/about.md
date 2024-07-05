@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-# Esto es una prueba Colección Fotográfica RHS
+# Esto es una prueba Colección Fotográfica
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
